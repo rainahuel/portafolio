@@ -19,7 +19,7 @@ import { ContactoComponent } from './contacto/contacto.component';
     BrowserModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ],
   exports: [
   ],
