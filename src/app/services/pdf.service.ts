@@ -11,7 +11,7 @@ export class PdfService {
   descargarPdf() {
     let headers = new HttpHeaders();
     headers = headers.set('Accept', 'application/pdf');
-    return this.htpp.get('https://rainahuel.github.io/portafolio/', { headers: headers, responseType: 'blob' })
+    return this.htpp.get('https://rainahuel.github.io/portafolio/assets/images/cvActualizado2020.pdf', { headers: headers, responseType: 'blob' })
   }
 
 }
