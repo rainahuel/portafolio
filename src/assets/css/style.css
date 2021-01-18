@@ -591,13 +591,10 @@ h2.portfolio.menu-item:before {
     content: '02';
 }
 
-h2.blog.menu-item:before {
+h2.contact.menu-item:before {
     content: '03';
 }
 
-h2.contact.menu-item:before {
-    content: '04';
-}
 
 .menu-block:hover h2.menu-item:before {
     top: -20px;
