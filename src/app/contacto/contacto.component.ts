@@ -42,7 +42,15 @@ export class ContactoComponent implements OnInit {
           'success'
         )
         this.iniciarForm();
+      } else {
+        Swal.fire(
+          `Error al enviar mensaje!`,
+          '',
+          'error'
+        )
+        this.iniciarForm();
       }
+      
     })
 
   }
